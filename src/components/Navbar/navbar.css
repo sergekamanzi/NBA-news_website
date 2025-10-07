@@ -1,0 +1,105 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-attachment: fixed;
+  background-image: url('../../../public/court.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+
+.logo h2 span {
+  color: #f8c146;
+}
+
+
+.links ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links ul li a:hover {
+  color: #f8c146;
+}
+
+
+.btn button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #e0ad36;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #e0ad36;
+}
+
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .links ul {
+    display: none;
+    flex-direction: column;
+    background-color: #1e1e2f;
+    position: absolute;
+    top: 70px;
+    right: 2rem;
+    width: 200px;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  .links ul.active {
+    display: flex;
+  }
+
+  
+  .btn {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: flex;
+    margin-left: 100px;
+  }
+
+}

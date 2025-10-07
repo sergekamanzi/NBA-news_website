@@ -1,0 +1,140 @@
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1100px;
+  background: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background: url('../../../public/rim.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.contact-info h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-info .highlight {
+  color: #b0a91d;
+  font-weight: 500;
+}
+
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  padding: 4rem 2rem;
+  background: #fff;
+}
+
+.contact-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name-fields {
+  display: flex;
+  gap: 1rem;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  background-color: #deb41b;
+  color: white;
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #adad33;
+}
+
+.footer {
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  font-size: 0.95rem;
+  font-family: 'Arial', sans-serif;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer p {
+  margin: 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .name-fields {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+}
+
