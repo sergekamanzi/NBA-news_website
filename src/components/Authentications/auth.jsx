@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Auth.css';
+import './auth.css';
 
 const Auth = ({ onAuthSuccess }) => {
   const [isSignIn, setIsSignIn] = useState(true);
