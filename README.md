@@ -1,5 +1,3 @@
-# React + Vite
-
 Lightweight news website template for NBA coverage built with React and Vite. This project demonstrates a small, component-driven structure with client-side routing and simple styling.
 
 Key goals:
