@@ -101,22 +101,9 @@ Contributions are welcome. A simple workflow:
 
 Please follow the existing code style. Run ESLint (`npm run lint`) before submitting.
 
-## Small TODOs / Ideas
-
-- Add unit tests with Vitest or Jest.
-- Integrate a real news API and caching layer.
-- Improve accessibility and responsive layout.
 
 ## License
 
 This project currently has no license file. If you want to open-source it, add a `LICENSE` (MIT is common for starter projects).
 
 ---
-
-If you'd like, I can:
-
-- Add a small demo script that seeds sample news items.
-- Wire up a free news API example using environment variables.
-- Add a CI workflow for linting and building.
-
-Tell me which of those you'd like next and I will implement it.
