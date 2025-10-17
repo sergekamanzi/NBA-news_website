@@ -1,3 +1,8 @@
+NB:for logging in, you need to input your username and password of your choice and click Signin....
+
+
+
+
 Lightweight news website template for NBA coverage built with React and Vite. This project demonstrates a small, component-driven structure with client-side routing and simple styling.
 
 Key goals:
